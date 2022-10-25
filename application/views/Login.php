@@ -38,7 +38,7 @@
                             <input type='text' class='form-control' name='last-name' placeholder='Last-Name' required/>
                         </div>
                     </div>
-                </div>
+                    </div>
                 <div class='row d-flex justify-content-center form '>
                     <div class= "col-sm-6 mt-4 "> 
                         <div class= "input-group">
@@ -71,13 +71,13 @@
                  
                     <div class="form-row">
                         <div class="col-sm-6 mt-4">
-                            <button type="Submit"> <a href="http://localhost/Responsive-RegisterForm/" class="btn btn-primary btn-lg mt-3 mb-5">Login</button></a>
+                            <button type="Submit">  <a href="<?php echo base_url('Registercontroller');?>"  class="btn btn-primary btn-lg mt-3 mb-5">Login</button></a>
                         </div>
                     </div>
                     <!-- <a href="#">Forget Password</a>
                     <p>Already have an account? <a href="#">Register here</a></p> -->
                 </form>
 
-</div>
+    </div>
 </body>
 </html>

@@ -25,9 +25,9 @@
                     <h1 class="font-weight-bold py-3">SignUp Page</h1>
                     
                 <form>
-                <div class='row d-flex justify-content-center form '>
-                    <div class= "col-sm-6 mt-4 "> 
-                        <div class= "input-group">
+                    <div class='row d-flex justify-content-center form '>
+                        <div class= "col-sm-6 mt-4 "> 
+                            <div class= "input-group">
                             <span class="input-group-text"> <i class="fas fa-user"></i> </span>							
                             <input type='text' class='form-control' name='first-name' placeholder='First-Name' required/>
                         </div>  
@@ -39,9 +39,9 @@
                         </div>
                     </div>
                     </div>
-                <div class='row d-flex justify-content-center form '>
-                    <div class= "col-sm-6 mt-4 "> 
-                        <div class= "input-group">
+                    <div class='row d-flex justify-content-center form '>
+                        <div class= "col-sm-6 mt-4 "> 
+                            <div class= "input-group">
                             <span class="input-group-text"> <i class="fas fa-envelope"></i> </span>							
                             <input type='text' class='form-control' name='email' placeholder='Email' required/>
                         </div>  
@@ -52,23 +52,21 @@
                             <input type='text' class='form-control' name='phone' placeholder='Phone-Number' required/>
                         </div>
                     </div>
-                </div>
-                <div class='row d-flex justify-content-center form '>
-                    <div class= "col-sm-6 mt-4 "> 
-                        <div class= "input-group">
+                    </div>
+                    <div class='row d-flex justify-content-center form '>
+                        <div class= "col-sm-6 mt-4 "> 
+                            <div class= "input-group">
                             <span class="input-group-text"> <i class="fas fa-lock"></i> </span>							
                             <input type='text' class='form-control' name='password' placeholder='Password' required/>
                         </div>  
                     </div>
-                    <div class= "col-sm-6 mt-4 "> 
-                        <div class= "input-group">
+                        <div class= "col-sm-6 mt-4 "> 
+                            <div class= "input-group">
                             <span class="input-group-text"> <i class="fas fa-lock"></i> </span>
                             <input type='text' class='form-control' name='password' placeholder='Confirm-password' required/>
                         </div>
                     </div>
-                </div>
-
-                 
+                    </div>
                     <div class="form-row">
                         <div class="col-sm-6 mt-4">
                             <button type="Submit">  <a href="<?php echo base_url('Registercontroller');?>"  class="btn btn-primary btn-lg mt-3 mb-5">Login</button></a>
@@ -78,6 +76,6 @@
                     <p>Already have an account? <a href="#">Register here</a></p> -->
                 </form>
 
-    </div>
+</div>
 </body>
 </html>
